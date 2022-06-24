@@ -1,1 +1,46 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.card {
+  background: white;
+  display: inline-block;
+  margin: auto;
+  height: 500px;
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+.post-suit {
+  position: absolute;
+  left: 15px;
+  bottom: 390px;
+  font-size: 80px;
+}
+.buttom-suit {
+  position: absolute;
+  right: 15px;
+  top: 390px;
+  font-size: 80px;
+}
+.number {
+  position: absolute;
+
+  right: 120px;
+  top: 200px;
+  font-size: 80px;
+}
+
+.boton {
+  position: absolute;
+  background-color: red;
+  right: 100px;
+  top: 600px;
+  font-size: 20px;
+}
+.refresh {
+  position: relative;
+  right: 5px;
+  top: 500px;
+  font-size: 20px;
+}
